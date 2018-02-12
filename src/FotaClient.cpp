@@ -1,7 +1,6 @@
 #include <ArduinoOTA.h>
-#include "FotaClient.h"
-#include <CommonConfig.h>
 #include <RemotePrint.h>
+#include "FotaClient.h"
 
 FotaClient::FotaClient(const char *deviceName) {
   this->deviceName = deviceName;
